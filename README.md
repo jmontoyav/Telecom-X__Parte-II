@@ -33,9 +33,24 @@ Se contrastaron dos arquitecturas principales para medir el balance entre interp
     <th>Random Forest</th>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>Recall (Clase 1)</td>
+    <td>76%</td>
+    <td>61%</td>
+  </tr>
+  <tr>
+    <td>Precisión (Clase 1)</td>
+    <td>54%</td>
+    <td>55%</td>
+  </tr>
+  <tr>
+    <td>F1-Score</td>
+    <td>0.63</td>
+    <td>0.58</td>
+  </tr>
+  <tr>
+    <td>Sensibilidad</td>
+    <td>Alta (Paranoico)</td>
+    <td>Baja (Conservador)</td>
   </tr>
 </table>
 
