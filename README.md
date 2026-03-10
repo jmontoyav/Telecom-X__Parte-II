@@ -54,9 +54,22 @@ Se contrastaron dos arquitecturas principales para medir el balance entre interp
   </tr>
 </table>
 
+## **🧠 Hallazgos Clave (Feature Importance)**
+El análisis del "Cerebro del Modelo" reveló los siguientes factores determinantes:
+<ol>
+  <li>La variable personalizada Cant_Servicios demostró que la acumulación excesiva de servicios adicionales eleva el riesgo de cancelación debido al incremento en los cargos mensuales.</li>
+  <li>Los contratos a largo plazo (2 años) y la antigüedad del cliente son los protectores más fuertes contra la fuga.</li>
+  <li>La presencia de Soporte Técnico y Seguridad Online reduce significativamente la probabilidad de abandono.</li>
+</ol>
 
+## **📈 Conclusiones Estratégicas**
+<ul>
+  <li>Migración de Contratos: Incentivar el paso de contratos mensuales a anuales para estabilizar la cartera.</li>
+  <li>Optimización de Paquetes: Evitar la saturación de servicios adicionales innecesarios que disparan la percepción de costo elevado.</li>
+  <li>Retención Proactiva: Implementar un sistema de alertas tempranas utilizando el score de riesgo generado por la Regresión Logística.</li>
+</ul>
 
-
-
-
+## **🚀 Requisitos e Instalación**
+Para replicar este entorno de análisis, asegúrate de tener instaladas las siguientes librerías:
+<pre>pip install pandas numpy matplotlib seaborn scikit-learn imbalanced-learn</pre>
 
