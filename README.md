@@ -7,7 +7,7 @@ Este repositorio contiene un pipeline completo de Ciencia de Datos diseñado par
 
 ## **🛠️ Flujo de Desarrollo**
 <ol>
-  <li> Preprocesamiento y Limpieza
+  <li>Preprocesamiento y Limpieza
     <ul>
       <li>Eliminación de Irrelevancias: Remoción de identificadores únicos (customerID) que no aportan valor predictivo.</li>
       <li>Encoding: Transformación de variables categóricas mediante One-Hot Encoding.</li>
@@ -15,7 +15,31 @@ Este repositorio contiene un pipeline completo de Ciencia de Datos diseñado par
       <li>Estandarización: Uso de StandardScaler para normalizar las magnitudes de variables continuas, asegurando la convergencia de modelos basados en distancia y optimización.</li>
     </ul>
   </li>
+  <li>Análisis Exploratorio de Datos (EDA)
+    <ul>
+      <li>Identificación del Churn: Verificación de la proporción inicial (73.5% Retención vs 26.5% Fuga).</li>
+      <li>Análisis de Correlación: Generación de matrices de Pearson para identificar relaciones lineales entre el gasto, la antigüedad y la cancelación.</li>
+      <li>Análisis Dirigido: Uso de Boxplots para validar que la antigüedad (tenure) y el gasto total (TotalCharges) son factores críticos de permanencia.</li>
+    </ul>
+  </li>
 </ol>
+
+## **🤖 Modelos Evaluados**
+Se contrastaron dos arquitecturas principales para medir el balance entre interpretabilidad y complejidad:
+<table>
+  <tr>
+    <th>Métrica</th>
+    <th>Regresión Logística (Elegida)</th>
+    <th>Random Forest</th>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
+
 
 
 
